@@ -43,5 +43,6 @@ class Song
     @@genres.each do |key|
       songs << key
     end
+    songs
   end
 end
