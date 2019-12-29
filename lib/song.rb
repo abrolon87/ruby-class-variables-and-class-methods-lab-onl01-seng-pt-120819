@@ -39,8 +39,8 @@ class Song
   end
 
   def self.genre_count
-    songs = {}
-    @@genres.each do |key|
+    genre_count = {}
+    @@genres.each do |genre|
       songs << :key
     end
     songs
