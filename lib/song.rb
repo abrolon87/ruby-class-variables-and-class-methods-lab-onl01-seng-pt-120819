@@ -41,6 +41,8 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
+      if genre_count[genre]
+        genre_count[genre] += 1
       songs << :key
     end
     songs
