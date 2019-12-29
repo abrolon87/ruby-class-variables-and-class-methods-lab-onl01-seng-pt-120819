@@ -18,10 +18,6 @@ class Song
     @@count
   end
 
-  def genres
-    @@genres
-  end
-
   def self.artists
     artists = []
     @@artists.each do |artist|
