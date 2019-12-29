@@ -32,5 +32,4 @@ class Song
     artists
   end
 
-  
 end
