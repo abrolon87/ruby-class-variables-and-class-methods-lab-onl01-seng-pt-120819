@@ -31,7 +31,7 @@ class Song
   end
 
   def self.genres
-    genres = []
+    genres = []    #@@genres.uniq
     @@genres.each do |genre|
       genres << genre unless genres.include?(genre)
     end
