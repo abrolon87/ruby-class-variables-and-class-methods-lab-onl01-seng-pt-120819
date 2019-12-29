@@ -38,5 +38,6 @@ class Song
       genres << genre unless genres.include?(genre)
     end
     genre
+  end
 
 end
